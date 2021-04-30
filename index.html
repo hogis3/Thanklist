@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>How was your day?</title>
+
+    <!-- importing css -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- meta data -->
+    <meta name="description" content="Hyunho Cho's Portfoilo" />
+    <meta name="author" content="Hyunho Cho" />
+    <link rel="icon" type="imange/png" href="img/REadCYCLE Logo.png" />
+  </head>
+  <body>
+    <span class="js-weather"></span>
+    <div class="js-clock">
+      <h1>00:00</h1>
+    </div>
+    <div class="js-content">
+      <form class="js-form form">
+        <input type="text" placeholder="What is your name?" />
+      </form>
+      <h4 class="js_greetings greetings"></h4>
+      <form class="js-toDoForm">
+        <input type="text" placeholder="3 things to be grateful for?" />
+      </form>
+      <ul class="js-toDoList"></ul>
+    </div>
+
+    <!-- importing js -->
+    <!-- using "defer" to execute JS after finishing parsing HTML -->
+    <script src="js/clock.js"></script>
+    <script src="js/greeting.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/bg.js"></script>
+    <script src="js/weather.js"></script>
+
+    <!-- imporing font awsome -->
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
